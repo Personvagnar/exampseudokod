@@ -1,8 +1,20 @@
 // G-Version - Split the Nota
 // Skriv din pseudokod innanför nedanstående kommentarsblock
 /*
+START
 
+SET summa = INPUT summa
+SET antal = INPUT antal
+SET dricks = INPUT dricks
 
+FUNCTION calculate
+    SET summeratpris = (summa * (dricks + 1,00)) / antal
+    RETURN summeratpris // Updatera variabeln "summeratpris" baserat på input.
+    
+CALL calculate // starta funktionen för att få uppdaerat värde av "summeratpris" innan det printas ut
+PRINT summeratpris
+
+END
 */
 
 // VG-Version - Lewis Carroll Word Puzzle
